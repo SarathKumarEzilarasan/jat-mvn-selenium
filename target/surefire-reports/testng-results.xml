@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src= /Users/preethir/Downloads/fsd-4/jat-mvn-selenium/screenshots/test.png width = 200px height=200px />]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-18T15:31:34 IST" name="All Test Suite" finished-at="2024-06-18T15:31:39 IST" duration-ms="5116">
+    <groups>
+    </groups>
+    <test started-at="2024-06-18T15:31:34 IST" name="firefox test" finished-at="2024-06-18T15:31:39 IST" duration-ms="5116">
+      <class name="tests.ExtentReportDemo">
+        <test-method is-config="true" signature="startReport(org.testng.ITestContext)[pri:0, instance:tests.ExtentReportDemo@35aea049]" started-at="2024-06-18T15:31:34 IST" name="startReport" finished-at="2024-06-18T15:31:34 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@546cbb89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ExtentReportDemo@35aea049]" started-at="2024-06-18T15:31:34 IST" name="setUp" finished-at="2024-06-18T15:31:38 IST" duration-ms="3518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test(org.testng.ITestContext)[pri:0, instance:tests.ExtentReportDemo@35aea049]" started-at="2024-06-18T15:31:38 IST" name="test" finished-at="2024-06-18T15:31:39 IST" duration-ms="888" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@546cbb89]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at tests.ExtentReportDemo.test(ExtentReportDemo.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= /Users/preethir/Downloads/fsd-4/jat-mvn-selenium/screenshots/test.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ExtentReportDemo@35aea049]" started-at="2024-06-18T15:31:39 IST" name="tearDown" finished-at="2024-06-18T15:31:39 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.ExtentReportDemo@35aea049]" started-at="2024-06-18T15:31:39 IST" name="endReport" finished-at="2024-06-18T15:31:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.ExtentReportDemo -->
+    </test> <!-- firefox test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
